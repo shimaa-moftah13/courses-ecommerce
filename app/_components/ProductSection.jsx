@@ -9,9 +9,9 @@ function ProductSection() {
 		getLatestProducts_();
 	},[])
 	const getLatestProducts_=()=>{
-		ProductApis.getLatestProducts().then(response=>{
-			console.log(response?.data?.data);
-			setProductList(response?.data?.data)
+		ProductApis.getLatestProducts().then(res=>{
+			console.log(res.data.data);
+			setProductList(res.data.data)
 		})
 	}
 	
@@ -22,8 +22,7 @@ function ProductSection() {
         <span className='font-normal text-[14px]
          float-right text-primary flex 
          items-center cursor-pointer hover:text-teal-600'>
-          View All Collection <ArrowRight className='h-4' /> </span></h2>		
-		  	<ProductList productList={productList}/>
+          View All Collection <ArrowRight className='h-4' /> </span></h2>			<ProductList productList={productList}/>
 			</div>
 	)
 }

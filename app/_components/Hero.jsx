@@ -5,9 +5,9 @@ function Hero() {
 		<section className="bg-gray-50">
 			<div className="max-w-screen-xl px-4 py-32 mx-auto pt-36 lg:flex lg:h-screen">
 				<div className="max-w-xl mx-auto text-center">
-					<h1 className="text-3xl font-extrabold sm:text-5xl ">
+					<h1 className="text-3xl font-extrabold sm:text-5xl">
 						All Your Digital Products
-						<strong className="font-extrabold text-primary sm:block mt-4">Is One Click Away</strong>
+						<strong className="font-extrabold text-primary sm:block">Is One Click Away</strong>
 					</h1>
 
 					<p className="mt-4 sm:text-xl/relaxed">

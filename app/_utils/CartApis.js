@@ -1,6 +1,6 @@
 const { default: axiosClient } = require("./axiosClient");
 
-const addToCart = (payload) => axiosClient.post("/carts",payload);
+const addToCart = (payload) => axiosClient.post("/carts", payload);
 
 const getUserCartItems = (email) =>
   axiosClient.get(
@@ -8,7 +8,6 @@ const getUserCartItems = (email) =>
   );
 
 const deleteCartItem = (id) => axiosClient.delete(`/carts/${id}`);
-
 export default {
   addToCart,
   getUserCartItems,

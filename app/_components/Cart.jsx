@@ -5,8 +5,8 @@ function Cart() {
 	const { cart, setcart } = useContext(CartContext)
 	return (
 		<div className='h-[300px] w-[250px]
-             bg-gray-100 z-10 rounded-md border shadow-sm
-             absolute mx-10 right-10 top-12 p-5 overflow-auto'>
+    bg-gray-100 z-10 rounded-md border shadow-sm
+    absolute mx-10 right-10 top-12 p-5 overflow-auto'>
 			<div className="mt-4 space-y-6">
 				<ul className="space-y-4">
 					{cart?.map((item) => (
