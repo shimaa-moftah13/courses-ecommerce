@@ -7,6 +7,7 @@ import { useRouter } from 'next/navigation'
 function Cart() {
 	const router = useRouter();
 	const { cart, setCart } = useContext(CartContext)
+	
 	const getTotalAmount = () => {
 		let totalAmount = 0;
 		cart.forEach(item => {
