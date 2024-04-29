@@ -29,7 +29,7 @@ const CheckoutForm = ({ amount }) => {
 		// Create New Order
 		createOrder();
 		// Send an Email
-		sendEmail();
+		// sendEmail();
 		// Trigger form validation and wallet collection
 		const { error: submitError } = await elements.submit();
 		if (submitError) {
