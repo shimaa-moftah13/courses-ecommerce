@@ -22,7 +22,7 @@ const CheckoutForm = ({ amount }) => {
 			setLoading(false)
 			setErrorMessage(error.message)
 		}
-		// Create New Order
+		
 		createOrder();
 		// Send an Email
 		sendEmail();
