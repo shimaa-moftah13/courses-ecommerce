@@ -35,7 +35,7 @@ function Header() {
 		})
 	}
 	return !isLoggedIn && (
-		<header className="bg-white dark:bg-gray-900">
+		<header className="bg-white ">
 			<div className="flex items-center h-16 max-w-screen-xl gap-8 px-4 mx-auto shadow-md sm:px-6 lg:px-8">
 				<Image src='/logo.svg' alt='logo' width={30} height={30} />
 
@@ -44,7 +44,7 @@ function Header() {
 						<ul className="flex items-center gap-6 text-sm">
 							<li>
 								<a
-									className="text-gray-500 transition hover:text-gray-500/75 dark:text-white dark:hover:text-white/75"
+									className="text-gray-500 transition hover:text-gray-500/75 dark:black dark:hover:black/75"
 									href="/"
 								>
 									Home
@@ -53,7 +53,7 @@ function Header() {
 
 							<li>
 								<a
-									className="text-gray-500 transition hover:text-gray-500/75 dark:text-white dark:hover:text-white/75"
+									className="text-gray-500 transition hover:text-gray-500/75 dark:black dark:hover:black/75"
 									href="/"
 								>
 									Explore
@@ -62,7 +62,7 @@ function Header() {
 
 							<li>
 								<a
-									className="text-gray-500 transition hover:text-gray-500/75 dark:text-white dark:hover:text-white/75"
+									className="text-gray-500 transition hover:text-gray-500/75 dark:black dark:hover:black/75"
 									href="/"
 								>
 									Projects
@@ -71,7 +71,7 @@ function Header() {
 
 							<li>
 								<a
-									className="text-gray-500 transition hover:text-gray-500/75 dark:text-white dark:hover:text-white/75"
+									className="text-gray-500 transition hover:text-gray-500/75 dark:black dark:hover:black/75"
 									href="/"
 								>
 									About Us
@@ -80,7 +80,7 @@ function Header() {
 
 							<li>
 								<a
-									className="text-gray-500 transition hover:text-gray-500/75 dark:text-white dark:hover:text-white/75"
+									className="text-gray-500 transition hover:text-gray-500/75 dark:black dark:hover:black/75"
 									href="/"
 								>
 									Contact Us
